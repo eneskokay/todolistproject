@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="18.1682mm" height="18.1682mm" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 17.85 17.85"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ xmlns:xodm="http://www.corel.com/coreldraw/odm/2003">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .str0 {stroke:gray;stroke-width:0.69;stroke-miterlimit:22.9256}
+    .fil0 {fill:gray;fill-rule:nonzero}
+   ]]>
+  </style>
+ </defs>
+ <g id="Layer_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <g id="_2688770996480">
+   <path class="fil0 str0" d="M8.92 0.35c2.37,0 4.51,0.96 6.06,2.51 1.55,1.55 2.51,3.7 2.51,6.06 0,2.37 -0.96,4.51 -2.51,6.06 -1.55,1.55 -3.7,2.51 -6.06,2.51 -2.37,0 -4.51,-0.96 -6.06,-2.51 -1.55,-1.55 -2.51,-3.7 -2.51,-6.06 0,-2.37 0.96,-4.51 2.51,-6.06 1.55,-1.55 3.7,-2.51 6.06,-2.51zm5.33 3.25c-1.36,-1.36 -3.25,-2.21 -5.33,-2.21 -2.08,0 -3.97,0.84 -5.33,2.21 -1.36,1.36 -2.21,3.25 -2.21,5.33 0,2.08 0.84,3.97 2.21,5.33 1.36,1.36 3.25,2.21 5.33,2.21 2.08,0 3.97,-0.84 5.33,-2.21 1.36,-1.36 2.21,-3.25 2.21,-5.33 0,-2.08 -0.84,-3.97 -2.21,-5.33z"/>
+   <rect class="fil0" x="3.24" y="7.76" width="11.37" height="2.33"/>
+  </g>
+ </g>
+</svg>

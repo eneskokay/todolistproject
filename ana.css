@@ -1,0 +1,332 @@
+* {
+    font-family:'Open Sans';
+    font-weight: 600;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+    background: linear-gradient(135deg, rgba(40,113,162,1) 30%, rgba(67,185,165,1) 90%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    width: 800px;
+    margin:200px auto;
+
+}
+
+
+
+.addingtext {
+    width: 360px;
+    height: 30px;
+    border:0px;
+    background-color: white;
+}
+
+.addingtext:focus {
+    outline: none;
+}
+
+.whiteboxes {
+    cursor:text;
+    width: 400px;
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    height: 50px;
+    align-items: center;
+    border-radius: 1rem;
+    padding-left: 5px;
+    box-sizing: border-box;
+    
+}
+
+.list {
+    margin-top: 5rem;
+}
+
+.plus {
+cursor:pointer;
+width: 23px;
+height: 23px;
+z-index: 5;
+border-radius: 100%;
+fill: gray;
+}
+
+.plus:hover {
+    fill: rgb(104, 95, 95);
+    cursor: pointer;
+    }
+
+.data {
+    cursor: auto;
+    justify-content: left;
+    position: relative;
+    margin-top: 1rem;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.remove {
+    transform:scale(1);
+    top: 0px;
+    opacity: 0.6;
+    height: 18px;
+    width: 18px;
+}
+
+.remove:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+.removebutton {
+    width: 18px;
+    height: 18px;
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+    fill: gray;
+}
+
+.complebutton {
+    transform:scale(1.4);
+    position:absolute;
+    left:-14px;
+    fill:gray;
+}
+
+.complebuttoncontainer {
+    height:24.02px;
+    margin-left: 8px;
+    margin-right: 10px;
+}
+
+.complebuttoncontainer-svg {
+    width:24.02px;
+    height:24.02px;
+    cursor:pointer;
+}
+
+.complebuttoncontainer-svg:hover .complebutton {
+    fill: rgb(41, 38, 38);
+}
+
+.right-top-list {
+    position:fixed;
+    top: 5px;
+    right: 35px;
+    width: 175px;
+    height: min-content;
+    margin-top: 5px;
+    cursor:pointer;
+    flex-direction: column;
+    padding: 0;
+    border-radius: 1rem;
+    border:0px;
+}
+
+.right-top-list-left-box {
+    padding-left: 10px;
+    padding-top: 4px;
+    box-sizing: border-box;
+}
+
+.right-top-child-last, .right-top-child-first , .right-top-child {
+    height: 30px;
+    position: relative;
+    width: 175px;
+}
+
+
+.right-top-child {
+    background-color: rgb(238, 238, 238) ;
+
+}
+.right-top-child:hover {
+    background-color:#ddd;
+}
+
+
+
+.right-top-child-last {
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    border:solid 1px #ddd;
+    cursor:text;
+    width: 173px;
+    background-color: white;
+}
+
+
+.right-top-child-first {
+
+   background-color:gray;
+
+
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+
+
+
+.right-top-child-first .plus {
+    position:absolute;
+    right: 10px;
+    bottom: 6px;
+    fill: rgb(41, 38, 38);
+    cursor:auto;
+    cursor:pointer;
+}
+
+.right-top-child-last .plus {
+    position:absolute;
+    right: 10px;
+    bottom: 3px;
+    cursor:pointer;
+}
+
+.chapterinput {
+    margin-left: 8px;
+    width: 125px;
+    height: 25px;
+    padding-top: 7px;
+    box-sizing: border-box;
+}
+
+.chapterinput::placeholder {
+    font-size: 0.9rem;
+}
+
+
+.right-top-list-left-box {
+    width:145px;
+}
+
+
+
+.none {
+    display: none;
+}
+
+.border{
+border-bottom-left-radius: 1rem;
+border-bottom-right-radius: 1rem;
+}
+
+
+
+.inputluolan {
+    padding: 0;
+}
+    
+#wssw {
+    fill:rgb(238, 238, 238);
+}
+.right-top-child-first .right-top-list-left-box {
+   color: rgb(238, 238, 238) ;
+}
+
+
+
+.right-top-remover {
+    width: 30px;
+    height: 30px;
+    background-color: gray;
+    margin-left: 12px;
+    margin-top: 5px;
+    border-radius:40%;
+    display: flex;
+align-items: center;
+justify-content: center;
+cursor: pointer;
+}
+
+#remover {
+    fill:white;
+}
+
+#removesvg {
+height: 16px;
+}
+
+.right-top-list:hover, .right-top-remover:hover {
+    background-color: rgb(104, 95, 95) !important;
+}
+
+.the-big-container {
+    display:flex;
+    flex-direction: row;
+    justify-content: right;
+    margin-top: 1rem;
+}
+
+.the-big-cont {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-right: 1rem;
+}
+
+
+.right-top-list {
+    position: static;
+    background-color: rgb(83, 142, 182);
+
+}
+
+
+#addingform {
+    display: flex;
+    align-items: center;
+
+}
+
+#addingform button, #optionselectform button{
+    border: none;
+    background: none;
+    
+}
+
+.button {
+    padding: 0;
+}
+
+.plussvg {
+    width: 23px;
+    height: 23px;
+}
+
+ #searchinput {
+    border: 0px;
+    margin-right: 5px;
+}
+
+ .borderinput:focus {
+    outline: none;
+    box-shadow: 0px 0px 10px 0px;
+ }
+
+.adding.whiteboxes:focus-within {
+    box-shadow: 0px 0px 10px 0px;
+}
+
+
+.adding.whiteboxes.a {
+flex-direction: row-reverse;
+}
+
+
+.searchSVG {
+    width: 30px;
+    height: 30px;
+    margin-left: 5px;
+    margin-right: 5px;
+    fill: gray;
+}
